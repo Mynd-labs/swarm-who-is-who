@@ -1,0 +1,120 @@
+{
+  "$schema": "https://fundingjson.org/schema/v1.1.0.json",
+  "version": "v1.1.0",
+  "entity": {
+    "type": "individual",
+    "role": "maintainer",
+    "name": "Yethikrishna R / Mynd Labs",
+    "email": "yethikrishnarcvn7a@gmail.com",
+    "description": "Solo founder and maintainer of unincorporated Mynd Labs in Thrissur, Kerala, India. This request covers existing public open-source and research work, not the entire private product portfolio. Mynd Labs is not presented as a registered nonprofit. No institutional affiliation, external user count or independent security certification is claimed.",
+    "webpageUrl": {
+      "url": "https://myndlabs.tech"
+    }
+  },
+  "projects": [
+    {
+      "guid": "swarm-who-is-who",
+      "name": "Who Is Who in a Swarm?",
+      "description": "An existing open-source simulator and report exploring agent attribution under renaming, cloning and impersonation. The current experiments use synthetic agents, hand-chosen parameters and 30 seeds, not real language-model agents. The report discloses AI-produced code, analysis and text. Planned follow-on work would improve reproducibility, test identity continuity and publish failures and limitations. No external adoption or real-world security guarantee is claimed.",
+      "webpageUrl": {
+        "url": "https://research.myndlabs.tech/papers/who-is-who-in-a-swarm.pdf"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/Mynd-labs/swarm-who-is-who"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "research",
+        "developer-tools",
+        "ai",
+        "security",
+        "reproducibility"
+      ]
+    },
+    {
+      "guid": "palaka-lite",
+      "name": "Palaka Lite",
+      "description": "Existing public Rust-native agent harness with separate policy, tool, session, context and frontend components. Source and a Cargo workspace are available under AGPL-3.0. Permission-model claims in the README are design claims, not an independently verified security guarantee. Requested support would cover public maintenance, regression tests and documentation, not a proprietary hosted service.",
+      "webpageUrl": {
+        "url": "https://github.com/yethikrishna/Palaka-lite"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/yethikrishna/Palaka-lite"
+      },
+      "licenses": [
+        "spdx:AGPL-3.0"
+      ],
+      "tags": [
+        "developer-tools",
+        "rust",
+        "ai",
+        "agents"
+      ]
+    },
+    {
+      "guid": "tend",
+      "name": "Tend",
+      "description": "Existing MIT-licensed simulated Alexa+ care experience backed by an MCP server, with TypeScript, Express and SQLite. The public demo records synthetic check-ins and medication reports; it is not enrolled with Alexa+, does not place calls or send push notifications, and is not clinically validated or production-ready. Proposed support is for prototype maintenance, correctness tests and clear limitations, not patient deployment or medical claims.",
+      "webpageUrl": {
+        "url": "https://github.com/yethikrishna/tend"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/yethikrishna/tend"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "typescript",
+        "mcp",
+        "prototype",
+        "accessibility"
+      ]
+    },
+    {
+      "guid": "discovery-tiny-001",
+      "name": "Discovery-Tiny-001",
+      "description": "Existing public discrete-diffusion code-model research artifact with inference and training code and an Apache-2.0 license notice. The README reports approximately92M parameters and20/20 exact-match reproduction of its20 training functions. This is memorization, not held-out evaluation or general coding ability. These figures have not been independently reproduced for this application. Proposed support is for reproducibility documentation and evaluation boundaries, not a large-model training promise.",
+      "webpageUrl": {
+        "url": "https://github.com/yethikrishna/discovery-tiny-001"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/yethikrishna/discovery-tiny-001"
+      },
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "python",
+        "research",
+        "diffusion",
+        "reproducibility"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "contact-maintainer",
+        "type": "other",
+        "description": "Contact the maintainer by email to agree a supported grant-payment route. No payment-account information is published in this manifest."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "swarm-public-research",
+        "status": "active",
+        "name": "Mynd Labs public research and open-source maintenance",
+        "description": "Seeking the full INR 15,00,000 as a one-time, non-equity cash grant for a proposed12-month program maintaining and extending existing public FOSS work. This is a proposed support allocation, not incurred expenditure, salary history, vendor quotes or a demonstrated compute requirement. Proposed allocation and milestones: INR9,00,000 for swarm-attribution research, reproduce/document the baseline, test linked key rotation and registered clones including compromised-key/missing-registration controls, and publish reproducible results and limitations; INR3,00,000 for Palaka Lite public maintenance, regression-test and permission-boundary documentation; INR2,00,000 for Tend prototype correctness tests, maintenance and clear care/production limitations, using synthetic data only; INR1,00,000 for Discovery-Tiny-001 reproducibility and evaluation documentation, explicitly separating training-set memorization from generalization. Total INR15,00,000. These are requested milestone allocations, not fixed purchased services. A detailed cost budget and disbursement schedule would be agreed before award acceptance. Public progress reports proposed at least quarterly, with milestone review and a community contribution schedule agreed with FOSS United. No collaborator or reviewer is contracted, and no large-model training spend or clinical pilot is promised. Negative results will be published honestly. Private Mesh, Nool and y0 implementation work are excluded from this funding request. No award or follow-on funding is assumed. Overlapping support would be disclosed, and the same costs would not be charged twice.",
+        "amount": 1500000,
+        "currency": "INR",
+        "frequency": "one-time",
+        "channels": [
+          "contact-maintainer"
+        ]
+      }
+    ]
+  }
+}
